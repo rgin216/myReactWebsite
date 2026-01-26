@@ -25,3 +25,8 @@
 //  );
 //}
 //
+// the back tick ` allows you to right as though your writing here (no need \n)
+//instead of "hello!\n " + username
+//we can do:
+//`hello!
+//${username}`

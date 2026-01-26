@@ -13,19 +13,12 @@ const myelement = (
     </tr>
   </table>
 );
+const math = (<h1>5 + 5 = {5+5}</h1>);
 
 createRoot(document.getElementById('root')).render(
+<div>
   myelement
+  math
+  </div>
 )
 
-//class:
-//class Car {
-//  constuctor(name) {this.brand = name;} 
-//  present(){return 'I have a ' + this.brand;}
-//}
-//const mycar = new Car("Ford"); mycar.present();
-
-//short form function:
-// hello = function(var) {return "Hello " + var;}
-// hello = var => "Hello " + var;
-// test
