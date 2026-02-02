@@ -30,3 +30,30 @@
 //we can do:
 //`hello!
 //${username}`
+
+//Curly brackets can also be used in HTML portion for any javascript you want to add.
+//<h1>My car, {car.name}, has {25*20} horsepower</h1>
+
+
+//function Car(props) {
+//    return (
+//      <h2>I am a {props.brand}!</h2>
+//    );
+//  }
+//  
+//  function Garage() {
+//    return (
+//      <>
+//        <h1>Who lives in my Garage?</h1>
+//        <Car brand="Ford" />
+//        <Car brand="BMW" />
+//      </>
+//    );
+//  }
+//  
+//  createRoot(document.getElementById('root')).render(
+//    <Garage />
+//  );
+//
+//Creates Header1 Who lives in my Garage? then h2 I am a Ford!\n I am a BMW!
+
